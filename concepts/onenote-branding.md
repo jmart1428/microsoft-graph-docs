@@ -1,6 +1,6 @@
 ---
 title: "Branding guidelines for OneNote API developers "
-description: " "
+description: "Describes how to best integrate the OneNote brand within your product and satisfy OneNote branding requirements."
 author: "jewan-microsoft"
 ms.localizationpriority: medium
 ms.prod: "onenote"

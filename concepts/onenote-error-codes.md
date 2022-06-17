@@ -413,4 +413,4 @@ The container is already in use by another resource.
 ## See also
 
 - [Microsoft Graph error responses and resource types](errors.md)
-- [OneNote reference](/graph/api/resources/onenote?view=graph-rest-1.0)
+- [OneNote reference](/graph/api/resources/onenote?view=graph-rest-1.0&preserve-view=true)

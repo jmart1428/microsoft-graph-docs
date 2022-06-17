@@ -1,6 +1,6 @@
 ---
 title: "Create OneNote pages"
-description: " Enterprise notebooks on Microsoft 365"
+description: "Describes how to create a OneNote page by sending a POST request to a pages endpoint. Learn how to construct the request URI and the message body."
 author: "jewan-microsoft"
 ms.localizationpriority: high
 ms.prod: "onenote"
@@ -50,7 +50,7 @@ Your full request URI will look like one of these examples:
 - `https://graph.microsoft.com/v1.0/me/onenote/sections/{id}/pages`
 - `https://graph.microsoft.com/v1.0/me/onenote/pages?sectionName=Homework`
 
-Learn more about the [service root URL](/graph/api/resources/onenote-api-overview?view=graph-rest-1.0#root-url).
+Learn more about the [service root URL](/graph/api/resources/onenote-api-overview?view=graph-rest-1.0#root-url&preserve-view=true).
 
 <a name="post-pages-section-name"></a>
 

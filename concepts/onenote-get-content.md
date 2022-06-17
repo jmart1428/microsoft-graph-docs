@@ -1,6 +1,6 @@
 ---
 title: "Get OneNote content and structure with Microsoft Graph"
-description: " Enterprise notebooks on Microsoft 365"
+description: "Describes how to get OneNote content and structure by sending a GET request to the target endpoint. Learn how to construct the request URI."
 author: "jewan-microsoft"
 ms.localizationpriority: high
 ms.prod: "onenote"
@@ -23,7 +23,7 @@ By using query string options, you can filter your queries and improve performan
 > - Backup/restore OneNote sections
 > - Backup/restore OneNote notebooks
 > 
-> For backup and restore operations, see [Best practices for discovering files and detecting changes at scale](/onedrive/developer/rest-api/concepts/scan-guidance?view=odsp-graph-online).
+> For backup and restore operations, see [Best practices for discovering files and detecting changes at scale](/onedrive/developer/rest-api/concepts/scan-guidance?view=odsp-graph-online&preserve-view=true).
 
 <a name="request-uri"></a>
 
@@ -43,7 +43,7 @@ Your full request URI will look like one of these examples:
 - `https://graph.microsoft.com/v1.0/me/onenote/notes/pages`
 - `https://graph.microsoft.com/v1.0/me/onenote/pages?select=title,self`
 
-> **Note:** Learn more about the [service root URL](/graph/api/resources/onenote-api-overview?view=graph-rest-1.0#root-url).
+> **Note:** Learn more about the [service root URL](/graph/api/resources/onenote-api-overview?view=graph-rest-1.0#root-url&preserve-view=true).
 
 <a name="resource-paths"></a>
 
@@ -325,10 +325,10 @@ When you get a file resource, you don't need to include an **Accept** content ty
 
 For more information about GET requests, see the following resources in the Microsoft Graph API REST reference:
 
-- [GET Pages](/graph/api/page-get?view=graph-rest-1.0)
-- [GET Sections](/graph/api/section-get?view=graph-rest-1.0)
-- [GET SectionGroups](/graph/api/sectiongroup-get?view=graph-rest-1.0)
-- [GET Notebooks](/graph/api/notebook-get?view=graph-rest-1.0) 
+- [GET Pages](/graph/api/page-get?view=graph-rest-1.0&preserve-view=true)
+- [GET Sections](/graph/api/section-get?view=graph-rest-1.0&preserve-view=true)
+- [GET SectionGroups](/graph/api/sectiongroup-get?view=graph-rest-1.0&preserve-view=true)
+- [GET Notebooks](/graph/api/notebook-get?view=graph-rest-1.0&preserve-view=true) 
 
 
 
@@ -341,7 +341,7 @@ You can query for OneNote entities and search page content to get just the infor
 
 **Remember:**
 
-- All GET requests start with the [service root URL](/graph/api/resources/onenote-api-overview?view=graph-rest-1.0#root-url). <br/><br/>**Examples**: `https://www.onenote.com/api/v1.0/me/notes` and `https://www.onenote.com/api/v1.0/myOrganization/siteCollections/{id}/sites/{id}/notes/`
+- All GET requests start with the [service root URL](/graph/api/resources/onenote-api-overview?view=graph-rest-1.0#root-url&preserve-view=true). <br/><br/>**Examples**: `https://www.onenote.com/api/v1.0/me/notes` and `https://www.onenote.com/api/v1.0/myOrganization/siteCollections/{id}/sites/{id}/notes/`
 
 - Spaces in the URL query string must use %20 encoding.<br/><br/>**Example**: `filter=title%20eq%20'biology'`
 
@@ -634,10 +634,10 @@ Property names are case-sensitive in query expressions.
 
 For the list of properties and property types, see the following resources in the Microsoft Graph API REST reference:
 
-- [GET Pages](/graph/api/page-get?view=graph-rest-1.0)
-- [GET Sections](/graph/api/section-get?view=graph-rest-1.0)
-- [GET SectionGroups](/graph/api/sectiongroup-get?view=graph-rest-1.0)
-- [GET Notebooks](/graph/api/notebook-get?view=graph-rest-1.0) 
+- [GET Pages](/graph/api/page-get?view=graph-rest-1.0&preserve-view=true)
+- [GET Sections](/graph/api/section-get?view=graph-rest-1.0&preserve-view=true)
+- [GET SectionGroups](/graph/api/sectiongroup-get?view=graph-rest-1.0&preserve-view=true)
+- [GET Notebooks](/graph/api/notebook-get?view=graph-rest-1.0&preserve-view=true) 
 
 
 
