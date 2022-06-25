@@ -1,12 +1,12 @@
 ---
-title: "Branding guidelines for OneNote API developers "
-description: "Describes how to best integrate the OneNote brand within your product and satisfy OneNote branding requirements."
+title: "Branding guidelines for OneNote API developers"
+description: "Integrate the OneNote brand within your product to satisfy branding requirements. Includes guidance for logos, size, color, and referencing the OneNote name."
 author: "jewan-microsoft"
 ms.localizationpriority: medium
 ms.prod: "onenote"
 ---
 
-# Branding guidelines for OneNote API developers 
+# Branding guidelines for OneNote API developers
  
 **Applies to** Consumer notebooks on OneDrive | Enterprise notebooks on Microsoft 365
 
